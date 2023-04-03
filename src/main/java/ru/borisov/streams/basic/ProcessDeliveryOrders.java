@@ -1,4 +1,4 @@
-package ru.borisov.streams;
+package ru.borisov.streams.basic;
 
 import lombok.Getter;
 

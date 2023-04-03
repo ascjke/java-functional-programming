@@ -5,27 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e264724-b6fb-4a56-b8a4-d5b2197af0e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/monads/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/monads/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/monads/CustomOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/monads/CustomOptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/monads/Monad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/optionals/AccessingOptionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/optionals/ConditionsOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/optionals/CreatingOptionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/optionals/FilteringOptionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/optionals/FindUserQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/optionals/OptionalsBestPractices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/optionals/PrintLoginQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/sorting/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/sorting/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/sorting/LongRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/ProcessDeliveryOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/SourceOfStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/StreamBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/StreamOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/collecting/CollectToUnmodifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/collecting/JoiningStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/collecting/Suspects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/collecting/counting/AverageSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/collecting/counting/CountingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/collecting/map/Competition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/collecting/map/MapCollectingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/filtering/FilterChaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/filtering/Java9TakeWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/filtering/MaxEvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/filtering/OnlineJobSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/filtering/ProcessingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/filtering/StreamFiltering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/finding/FirstWordWithoutPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/mathcing/HealthChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/mathcing/MathcingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/shortcircuitevaluation/ShortCircuit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/ProcessDeliveryOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/basic/ProcessDeliveryOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/SourceOfStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/basic/SourceOfStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/StreamBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/basic/StreamBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/basic/StreamOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,40 +48,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2M8wryYGSVKySkx8Gm1DKIp114H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ascjke/Documents/IdeaProjects/java-functional-programming",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ProcessDeliveryOrders">
-    <configuration name="OptionalsBestPractices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.optionals.OptionalsBestPractices" />
+}]]></component>
+  <component name="RunManager" selected="Application.JoiningStreams">
+    <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.collecting.counting.AverageSalary" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.optionals.*" />
+          <option name="PATTERN" value="ru.borisov.streams.collecting.counting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessDeliveryOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.ProcessDeliveryOrders" />
+    <configuration name="Competition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.collecting.map.Competition" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.*" />
+          <option name="PATTERN" value="ru.borisov.streams.collecting.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SourceOfStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.SourceOfStreams" />
+    <configuration name="CountingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.collecting.counting.CountingEx" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.*" />
+          <option name="PATTERN" value="ru.borisov.streams.collecting.counting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.StreamBasics" />
+    <configuration name="JoiningStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.collecting.JoiningStreams" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.*" />
+          <option name="PATTERN" value="ru.borisov.streams.collecting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.StreamOperations" />
+    <configuration name="MapCollectingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.collecting.map.MapCollectingEx" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.*" />
+          <option name="PATTERN" value="ru.borisov.streams.collecting.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProcessDeliveryOrders" />
-        <item itemvalue="Application.StreamOperations" />
-        <item itemvalue="Application.SourceOfStreams" />
-        <item itemvalue="Application.StreamBasics" />
-        <item itemvalue="Application.OptionalsBestPractices" />
+        <item itemvalue="Application.JoiningStreams" />
+        <item itemvalue="Application.AverageSalary" />
+        <item itemvalue="Application.CountingEx" />
+        <item itemvalue="Application.Competition" />
+        <item itemvalue="Application.MapCollectingEx" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +162,12 @@
       <workItem from="1677896717744" duration="622000" />
       <workItem from="1677929905376" duration="4048000" />
       <workItem from="1677979281342" duration="9343000" />
-      <workItem from="1678106049381" duration="3851000" />
+      <workItem from="1678106049381" duration="4118000" />
+      <workItem from="1678197257405" duration="5116000" />
+      <workItem from="1678340526658" duration="869000" />
+      <workItem from="1679139706988" duration="3034000" />
+      <workItem from="1679314973318" duration="3314000" />
+      <workItem from="1679486695472" duration="21000" />
     </task>
     <servers />
   </component>
