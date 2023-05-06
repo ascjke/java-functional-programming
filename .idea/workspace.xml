@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e264724-b6fb-4a56-b8a4-d5b2197af0e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/transformingelements/AbsoluteNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/transformingelements/Countries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/transformingelements/EmployeesCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/transformingelements/FlatMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/InfiniteStreamEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/IterateEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/ScannerWithStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/CalculateAverageSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/Isogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/PrimitiveStreamEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/PrimitiveStreamEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/SumOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/AbsoluteSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/BasicReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/ColletctorsRedcuing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/CombiningPredicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/InflationProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +62,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EmployeesCounter">
-    <configuration name="AbsoluteNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.transformingelements.AbsoluteNumbers" />
+  <component name="RunManager" selected="Application.CalculateAverageSalary">
+    <configuration name="CalculateAverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.primitives.CalculateAverageSalary" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.transformingelements.*" />
+          <option name="PATTERN" value="ru.borisov.streams.primitives.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Countries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.transformingelements.Countries" />
+    <configuration name="ColletctorsRedcuing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.reduction.ColletctorsRedcuing" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.transformingelements.*" />
+          <option name="PATTERN" value="ru.borisov.streams.reduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeesCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.transformingelements.EmployeesCounter" />
+    <configuration name="InflationProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.reduction.InflationProblem" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.transformingelements.*" />
+          <option name="PATTERN" value="ru.borisov.streams.reduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.transformingelements.FindMax" />
+    <configuration name="IterateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.infinite.IterateEx" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.transformingelements.*" />
+          <option name="PATTERN" value="ru.borisov.streams.infinite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.transformingelements.FlatMapEx" />
+    <configuration name="ScannerWithStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.infinite.ScannerWithStream" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.transformingelements.*" />
+          <option name="PATTERN" value="ru.borisov.streams.infinite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMax" />
-        <item itemvalue="Application.EmployeesCounter" />
-        <item itemvalue="Application.FlatMapEx" />
-        <item itemvalue="Application.Countries" />
-        <item itemvalue="Application.AbsoluteNumbers" />
+        <item itemvalue="Application.CalculateAverageSalary" />
+        <item itemvalue="Application.ScannerWithStream" />
+        <item itemvalue="Application.IterateEx" />
+        <item itemvalue="Application.InflationProblem" />
+        <item itemvalue="Application.ColletctorsRedcuing" />
       </list>
     </recent_temporary>
   </component>
@@ -167,16 +177,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/borisov/streams/transformingelements/EmployeesCounter.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
