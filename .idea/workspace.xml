@@ -5,20 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e264724-b6fb-4a56-b8a4-d5b2197af0e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/InfiniteStreamEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/IterateEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/ScannerWithStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/infinite/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/CalculateAverageSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/Isogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/PrimitiveStreamEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/PrimitiveStreamEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/primitives/SumOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/AbsoluteSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/BasicReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/ColletctorsRedcuing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/CombiningPredicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/reduction/InflationProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CurryProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CurryingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CurryingRealLifeEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CustomReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/LengthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/LineEndHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/StatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/ValHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/paymentsystem/ChainOfResponsibilityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/paymentsystem/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/paymentsystem/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Speaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/SpeakerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/EncodingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/NotificationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/SMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/describe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/returningfunctions/ExtensionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/Classifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/DownStreamCollectorsEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/FlatMappingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/GroupingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/Partitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/PartitioningEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/UserActivityMonitoringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/XmlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/InitialValueOfReduceMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/IteratorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/NumbersProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/OrderOfElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/lection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/spliterator/CustomSpliterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/parallel_stream.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +90,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ascjke/Documents/IdeaProjects/java-functional-programming&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ascjke/Documents/IdeaProjects/java-functional-programming/src/main/resources/images/parallel_stream.png&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,13 +99,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CalculateAverageSalary">
-    <configuration name="CalculateAverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.primitives.CalculateAverageSalary" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.borisov.patterns.strategy.task" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CustomReducer">
+    <configuration name="ChainOfResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.patterns.chainofresponsibility.paymentsystem.ChainOfResponsibilityDemo" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.primitives.*" />
+          <option name="PATTERN" value="ru.borisov.patterns.chainofresponsibility.paymentsystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColletctorsRedcuing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.reduction.ColletctorsRedcuing" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.patterns.chainofresponsibility.Client" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.reduction.*" />
+          <option name="PATTERN" value="ru.borisov.patterns.chainofresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InflationProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.reduction.InflationProblem" />
+    <configuration name="CurryProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.curryingfunctions.CurryProduct" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.reduction.*" />
+          <option name="PATTERN" value="ru.borisov.curryingfunctions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.infinite.IterateEx" />
+    <configuration name="CustomReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.curryingfunctions.CustomReducer" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.infinite.*" />
+          <option name="PATTERN" value="ru.borisov.curryingfunctions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerWithStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.streams.infinite.ScannerWithStream" />
+    <configuration name="ExtensionService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.returningfunctions.ExtensionService" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.streams.infinite.*" />
+          <option name="PATTERN" value="ru.borisov.returningfunctions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculateAverageSalary" />
-        <item itemvalue="Application.ScannerWithStream" />
-        <item itemvalue="Application.IterateEx" />
-        <item itemvalue="Application.InflationProblem" />
-        <item itemvalue="Application.ColletctorsRedcuing" />
+        <item itemvalue="Application.CustomReducer" />
+        <item itemvalue="Application.CurryProduct" />
+        <item itemvalue="Application.ExtensionService" />
+        <item itemvalue="Application.ChainOfResponsibilityDemo" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
