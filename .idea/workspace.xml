@@ -5,57 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e264724-b6fb-4a56-b8a4-d5b2197af0e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CurryProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CurryingEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CurryingRealLifeEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/curryingfunctions/CustomReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/LengthHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/LineEndHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/StatementHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/ValHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/paymentsystem/ChainOfResponsibilityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/paymentsystem/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/chainofresponsibility/paymentsystem/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/SpeakerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/command/task/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/EncodingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/NotificationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/describe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/patterns/strategy/task/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/returningfunctions/ExtensionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/Classifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/DownStreamCollectorsEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/FlatMappingEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/GroupingEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/Partitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/PartitioningEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/UserActivityMonitoringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/grouping/XmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/InitialValueOfReduceMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/IteratorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/NumbersProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/OrderOfElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/lection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/streams/parallel/spliterator/CustomSpliterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/parallel_stream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/ClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/CompletableFutureCreating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/MapCompletableFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/Tutorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/baeldung/CombiningCompletableFutures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/baeldung/CompletableFutureExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/baeldung/HandlingErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/baeldung/ParallelCompletableFutures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/baeldung/SimpleFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/lection/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/lection/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/lection/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/lection/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/lection/lection.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +67,17 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.borisov.patterns.strategy.task" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/lection" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CustomReducer">
-    <configuration name="ChainOfResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.patterns.chainofresponsibility.paymentsystem.ChainOfResponsibilityDemo" />
+  <component name="RunManager" selected="Application.HandlingErrors">
+    <configuration name="CompletableFutureExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.asynchronous.baeldung.CompletableFutureExamples" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.patterns.chainofresponsibility.paymentsystem.*" />
+          <option name="PATTERN" value="ru.borisov.asynchronous.baeldung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.patterns.chainofresponsibility.Client" />
+    <configuration name="HandlingErrors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.asynchronous.baeldung.HandlingErrors" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.patterns.chainofresponsibility.*" />
+          <option name="PATTERN" value="ru.borisov.asynchronous.baeldung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurryProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.curryingfunctions.CurryProduct" />
+    <configuration name="MapCompletableFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.asynchronous.MapCompletableFuture" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.curryingfunctions.*" />
+          <option name="PATTERN" value="ru.borisov.asynchronous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.curryingfunctions.CustomReducer" />
+    <configuration name="ParallelCompletableFutures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.asynchronous.baeldung.ParallelCompletableFutures" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.curryingfunctions.*" />
+          <option name="PATTERN" value="ru.borisov.asynchronous.baeldung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtensionService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.returningfunctions.ExtensionService" />
+    <configuration name="SimpleFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.asynchronous.baeldung.SimpleFuture" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.returningfunctions.*" />
+          <option name="PATTERN" value="ru.borisov.asynchronous.baeldung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomReducer" />
-        <item itemvalue="Application.CurryProduct" />
-        <item itemvalue="Application.ExtensionService" />
-        <item itemvalue="Application.ChainOfResponsibilityDemo" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.HandlingErrors" />
+        <item itemvalue="Application.ParallelCompletableFutures" />
+        <item itemvalue="Application.CompletableFutureExamples" />
+        <item itemvalue="Application.SimpleFuture" />
+        <item itemvalue="Application.MapCompletableFuture" />
       </list>
     </recent_temporary>
   </component>
