@@ -1,6 +1,7 @@
 package ru.borisov.asynchronous;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 public class ClientImpl implements Client {
 
@@ -24,5 +25,10 @@ public class ClientImpl implements Client {
     @Override
     public Author findAuthorByTutorialName(String authorName) {
         return new Author("Steve McConnell");
+    }
+
+    @Override
+    public CompletableFuture<Tutorial> getTutorialByKeyword(String keyWord) {
+        return CompletableFuture.completedFuture(new Tutorial("Thinking on Java", new Author("Joshua Bloch")));
     }
 }
