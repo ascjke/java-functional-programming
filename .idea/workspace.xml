@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e264724-b6fb-4a56-b8a4-d5b2197af0e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/AllOfAnyOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/QueryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/completablefutureapi/HttpClientAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/completablefutureapi/ProcessAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/exceptionhandling/CustomTryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/exceptionhandling/Failure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/exceptionhandling/Success.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/exceptionhandling/ThrowableConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/exceptionhandling/ThrowableOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/exceptionhandling/Try.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/ClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/ClientImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,13 +63,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/ru/borisov/asynchronous/lection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpClientAPI">
-    <configuration name="AllOfAnyOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.asynchronous.AllOfAnyOf" />
+  <component name="RunManager" selected="Application.CustomTryTest">
+    <configuration name="CustomTryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.exceptionhandling.CustomTryTest" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.asynchronous.*" />
+          <option name="PATTERN" value="ru.borisov.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomTryTest" />
         <item itemvalue="Application.HttpClientAPI" />
         <item itemvalue="Application.ProcessAPI" />
         <item itemvalue="Application.QueryUtils" />
         <item itemvalue="Application.ExceptionHandling" />
-        <item itemvalue="Application.AllOfAnyOf" />
       </list>
     </recent_temporary>
   </component>
