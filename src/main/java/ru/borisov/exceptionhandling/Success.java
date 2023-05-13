@@ -94,7 +94,7 @@ class Success<T> implements Try<T> {
 
     @Override
     public Try<T> recoverWith(ThrowableFunction<? super Throwable, Try<T>> function) {
-        return null;
+        return this;
     }
 
     @Override

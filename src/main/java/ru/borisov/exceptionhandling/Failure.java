@@ -77,17 +77,20 @@ class Failure<T> implements Try<T> {
 
     @Override
     public Try<T> recover(ThrowableFunction<? super Throwable, T> function) {
-
         try {
             return new Success<>(function.apply(e));
         } catch (Throwable ex) {
-            throw new RuntimeException(ex);
+            return new Failure<>(ex);
         }
     }
 
     @Override
     public Try<T> recoverWith(ThrowableFunction<? super Throwable, Try<T>> function) {
-        return null;
+        try {
+            return function.apply(e);
+        } catch (Throwable ex) {
+            return new Failure<>(ex);
+        }
     }
 
     @Override
